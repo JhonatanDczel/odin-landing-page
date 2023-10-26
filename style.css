@@ -8,3 +8,25 @@ img {
   width: 300px;
   height: auto;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.head{
+  display: flex;
+}
+
+.galeria{
+  display: flex;
+}
+
+.frase {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
