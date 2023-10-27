@@ -83,6 +83,39 @@ body {
 
 .galeria{
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 64px;
+  gap: 16px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+}
+
+.content-cat {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 24px;
+}
+
+.cat-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cat-item > img {
+  width: 200px;
+}
+
+.cat-name {
+  color: #666;
+  font-weight: 500;
 }
 
 .frase {
