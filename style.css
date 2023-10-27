@@ -1,7 +1,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: "Pippins", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 img {
@@ -17,6 +17,68 @@ body {
 
 .head{
   display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  color: white;
+  gap: 32px;
+  padding: 16px;
+}
+
+
+.header {
+  display: flex;
+  align-self: stretch;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 32px;
+  color: #f9faf8;
+}
+.links {
+  display: flex;
+  gap: 32px;
+}
+
+.link , .bienvenida{
+  text-decoration: none;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.presentation{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap-reverse;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 510px;
+  min-width: 260px;
+  margin: 16px;
+}
+
+.tittle {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.signup {
+  background: #3882f6;
+  padding: 8px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  font-weight: 600;
 }
 
 .galeria{
