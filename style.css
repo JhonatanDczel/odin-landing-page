@@ -74,7 +74,7 @@ body {
 
 .signup {
   background: #3882f6;
-  padding: 8px;
+  padding: 10px 30px;
   border: 0;
   border-radius: 8px;
   color: #fff;
@@ -120,6 +120,60 @@ h2 {
 
 .frase {
   display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: #e5e7eb;
+  align-items: center;
+  padding: 80px 20%;
+}
+
+.quote {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 36px;
+  text-align: justify;
+}
+
+.autor {
+  font-weight: 900;
+  font-size: 24px;
+  align-self: flex-end;
+}
+
+.call-action {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 100px 15%;
+}
+
+.content-action {
+  background-color: #3882f6;
+  border-radius: 8px;
+  display: flex;
+  height: 200px;
+  flex:1;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 32px;
+  gap: 8px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.action-tittle, .action-text {
+  color: #fff;
+  text-align: start;
+}
+
+.action.signup {
+  border: 2px solid #fff;
 }
 
 .footer {
