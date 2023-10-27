@@ -178,4 +178,13 @@ h2 {
 
 .footer {
   display: flex;
+  background-color: #1f2937;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer > p {
+  color: #fff;
+  font-size: 20px;
 }
