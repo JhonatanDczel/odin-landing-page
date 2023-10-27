@@ -4,6 +4,10 @@
   font-family: "Poppins", sans-serif;
 }
 
+button {
+  cursor: pointer;
+}
+
 img {
   width: 300px;
   height: auto;
@@ -34,6 +38,7 @@ body {
 }
 
 .logo {
+  cursor: pointer;
   font-weight: 900;
   font-size: 32px;
   color: #f9faf8;
@@ -43,10 +48,16 @@ body {
   gap: 32px;
 }
 
+a:hover {
+  color: #a4a5a3;
+  border-bottom: 2px dotted #a4a5a3;
+}
+
 .link , .bienvenida{
   text-decoration: none;
   color: #e5e7eb;
   font-size: 18px;
+  border: 2px solid rgba(0,0,0,0);
 }
 
 .presentation{
@@ -75,10 +86,14 @@ body {
 .signup {
   background: #3882f6;
   padding: 10px 30px;
-  border: 0;
+  border: 2px solid rgba(0,0,0,0);
   border-radius: 8px;
   color: #fff;
   font-weight: 600;
+}
+
+.signup:hover {
+  border: 2px solid #f9faf8;
 }
 
 .galeria{
@@ -174,6 +189,11 @@ h2 {
 
 .action.signup {
   border: 2px solid #fff;
+}
+
+.action.signup:hover {
+  color: #3882f6;
+  background-color: #fff;
 }
 
 .footer {
