@@ -4,7 +4,7 @@
 
 ## 🚀 Descripción
 
-CatBlog es una sencilla pero encantadora Landing Page creada como parte de mi aprendizaje inicial en desarrollo web con HTML y CSS. Esta página está diseñada para mostrar las habilidades adquiridas con CSS, centrándose en el uso de Flexbox y conceptos de diseño responsive. Además, representa mi primera experiencia en la creación de una página web completa.
+CatBlog es una sencilla pero encantadora Landing Page creada como parte de mi aprendizaje inicial en desarrollo web con HTML y CSS. Esta página está diseñada para mostrar las habilidades adquiridas con CSS, centrándose en el uso de Flexbox y conceptos de diseño responsive. Además, representa mi primera experiencia en la creación de una página web completa en el curso Foundations de The Odin Project. ([🔗 Ver mas proyectos](https://github.com/JhonatanDczel/the-odin-project))
 
 ## 🌐 Demo
 
